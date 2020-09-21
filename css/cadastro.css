@@ -9,13 +9,30 @@ th{
     vertical-align: middle;
 }
 
-.inputs{
-    width:99%;
+td{
+    padding-right: 14px;
+    width: 80%;
 }
 
-.botao1{
-    margin-top: 10px;
-    margin-left: 50%;
-    display: inline-block;
+/* Login=“100%“, Nome =“100%“,  email=“100%”, status = “30%“, Bloqueado=“30%“, Observações="100%"*/
+input[type="text"], input[type="email"], textarea {    
+    width: 100%;
 }
 
+select[name="status"], select[name="bloq"]{
+    width: 30%;
+}
+
+.container {
+    margin-top: 30px;
+    position: relative;
+}
+  
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

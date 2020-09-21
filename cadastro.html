@@ -23,14 +23,15 @@
                 <h1>Cadastro de Usuários</h1>
             </div>  
 
-            <table style="width:60%">
+            <table>
+                
                 <tr>
                     <th>Login</th>
-                    <td><input type="text" id="cad-login " class="inputs"></td>
+                    <td><input type="text" id="cad-login"></td>
                 </tr>
                 <tr>
                     <th>Nome</th>
-                    <td><input type="text" id="cad-nome" class="inputs"></td>
+                    <td><input type="text" id="cad-nome"></td>
                 </tr>
                 <tr>
                     <th>Data Nascto.</th>
@@ -49,7 +50,7 @@
                 </tr>
                 <tr>
                     <th>E-mail</th>
-                    <td><input type="email" id="cad-email" class="inputs"></td>
+                    <td><input type="email" id="cad-email"></td>
                 </tr>
                 <tr>
                     <th>Status</th>
@@ -63,7 +64,7 @@
                 <tr>
                     <th>Bloqueado?</th>
                     <td>
-                        <select name="status" id="cad-bloq">
+                        <select name="bloq" id="cad-bloq">
                             <option value="sim">Sim</option>
                             <option value="nao" selected>Não</option>
                         </select>
@@ -71,11 +72,17 @@
                 </tr>
                 <tr>
                     <th>Observações</th>
-                    <td><textarea name="obs" id="cad-obs" cols="88" rows="5" class="inputs"></textarea></td>
-                </tr>
+                    <td><textarea name="obs" id="cad-obs" cols="88" rows="5"></textarea></td>
+                </tr>            
+
             </table>
-                <input type="button" value="Salvar" class="botao1">
-                <input type="button" value="Limpar" class="botao2">
+                <div class="container">
+                    <div class="center">
+                        <input type="button" value="Salvar" id="salvar" />
+                        <input type="button" value="Limpar" id="limpar" />
+                        <a href="index.html"><input type="button" value="Voltar" id="voltar" /></a>
+                    </div>
+                </div>
 
         </main>
 
