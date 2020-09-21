@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">       
+        <link rel="stylesheet" href="css/cadastro.css">       
+
+        <title>Cadastro</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="images/logo_omni_fundo_azul.png" alt="" class="logo">
+
+        </header>
+
+        <main>
+            <div class="enunciado">
+                <img src="images/key.gif" alt="">
+                <h1>Cadastro de Usuários</h1>
+            </div>  
+
+            <table style="width:60%">
+                <tr>
+                    <th>Login</th>
+                    <td><input type="text" id="cad-login"></td>
+                </tr>
+                <tr>
+                    <th>Nome</th>
+                    <td><input type="text" id="cad-nome"></td>
+                </tr>
+                <tr>
+                    <th>Data Nascto.</th>
+                    <td><input type="date" id="cad-data"> <span id="idade"></span> </td>
+                </tr>
+                <tr>
+                    <th>Sexo</th>
+                    <td>
+                        <input type="radio" id="masculino" name="genero" value="masculino">
+                        <label for="masculino">Masculino &#9794;</label>
+                        
+
+                        <input type="radio" id="feminino" name="genero" value="feminino">
+                        <label for="feminino">Feminino &#9792;</label>                
+                    </td>
+                </tr>
+                <tr>
+                    <th>E-mail</th>
+                    <td><input type="email" id="cad-email"></td>
+                </tr>
+                <tr>
+                    <th>Status</th>
+                    <td>
+                        <select name="status" id="cad-status">
+                            <option value="ativo">Ativo</option>
+                            <option value="bloqueado">Bloqueado</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Bloqueado?</th>
+                    <td>
+                        <select name="status" id="cad-bloq">
+                            <option value="sim">Sim</option>
+                            <option value="nao" selected>Não</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Observações</th>
+                    <td><textarea name="obs" id="cad-obs" cols="88" rows="5"></textarea></td>
+                </tr>
+
+            </table>
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <script src="js/funcoes.js"></script>
+    </body>    
+</html>

@@ -1,0 +1,10 @@
+th{
+    width: 20%;
+	background-color: #336699;
+	color: white;
+	font-weight: bold;
+	padding: 8px;
+    border: 1px solid lightgray;
+    text-align: left;
+    vertical-align: middle;
+}

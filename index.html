@@ -5,8 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-       
+        <link rel="stylesheet" href="css/style.css">       
 
         <title>Lista</title>
     </head>
@@ -15,98 +14,101 @@
         <header>
             <img src="images/logo_omni_fundo_azul.png" alt="" class="logo">
 
-            <div class="header-right">
-                <a href="index.html">Lista</a>
-                <a href="cadastrar.html">Cadastrar</a>
-            </div>
         </header>
 
         <main>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Login</th>
-                        <th>Nome</th>
-                        <th>Status</th>
-                        <th>Bloquear</th>
-                        <th>Editar</th>
-                    </tr>
-                </thead>
-                <tbody id="tabela-usuarios">
-                    <tr class="usuario" id="primeiro-usuario">
-                        <td class="info-login">ALLAYE_GANA</td>
-                        <td class="info-nome">Allaye Gana</td>
-                        <td class="info-status">Ativo</td>
-                        <td class="info-bloquear"><input type="button" value="bloquear"></td>
-                        <td class="info-editar"><input type="button" value="editar"></td>
-                    </tr>
+            <section class="container">
+                <div class="enunciado">
+                    <img src="images/enumList.png" alt="">
+                    <h1>Lista de Usuários</h1>
+                </div>            
 
-                    <tr class="usuario">
-                        <td class="info-login">ANA_DIAS</td>
-                        <td class="info-nome">Ana Dias</td>
-                        <td class="info-status">Ativo</td>
-                        <td class="info-bloquear"><input type="button" value="bloquear"></td>
-                        <td class="info-editar"><input type="button" value="editar"></td>
-                    </tr>
+                <table class="tabela">
+                    <thead>
+                        <tr>
+                            <th>Login</th>
+                            <th>Nome</th>
+                            <th>Status</th>
+                            <th>Bloquear</th>
+                            <th>Editar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela-usuarios">
+                        <tr class="usuario" id="primeiro-usuario">
+                            <td class="info-login">ALLAYE_GANA</td>
+                            <td class="info-nome">Allaye Gana</td>
+                            <td class="info-status">Ativo</td>
+                            <td class="info-bloquear"><input type="button" value="bloquear"></td>
+                            <td class="info-editar"><input type="button" value="editar"></td>
+                        </tr>
 
-                    <tr class="usuario">
-                        <td class="info-login">MARCELO_DIAS</td>
-                        <td class="info-nome">Marcelo</td>
-                        <td class="info-status">Ativo</td>
-                        <td class="info-bloquear"><input type="button" value="bloquear"></td>
-                        <td class="info-editar"><input type="button" value="editar"></td>
-                    </tr>
+                        <tr class="usuario">
+                            <td class="info-login">ANA_DIAS</td>
+                            <td class="info-nome">Ana Dias</td>
+                            <td class="info-status">Ativo</td>
+                            <td class="info-bloquear"><input type="button" value="bloquear"></td>
+                            <td class="info-editar"><input type="button" value="editar"></td>
+                        </tr>
 
-                    <tr class="usuario">
-                        <td class="info-login">DAVI_AGUIAR</td>
-                        <td class="info-nome">Davi Pereira de Aguiar Neto</td>
-                        <td class="info-status">Ativo</td>
-                        <td class="info-bloquear"><input type="button" value="bloquear"></td>
-                        <td class="info-editar"><input type="button" value="editar"></td>
-                    </tr>
+                        <tr class="usuario">
+                            <td class="info-login">MARCELO_DIAS</td>
+                            <td class="info-nome">Marcelo</td>
+                            <td class="info-status">Ativo</td>
+                            <td class="info-bloquear"><input type="button" value="bloquear"></td>
+                            <td class="info-editar"><input type="button" value="editar"></td>
+                        </tr>
 
-                    <tr class="usuario">
-                        <td class="info-login">LHENRIQUE</td>
-                        <td class="info-nome">Luis Henrique Mendes</td>
-                        <td class="info-status">Ativo</td>
-                        <td class="info-bloquear"><input type="button" value="bloquear"></td>
-                        <td class="info-editar"><input type="button" value="editar"></td>
-                    </tr>
+                        <tr class="usuario">
+                            <td class="info-login">DAVI_AGUIAR</td>
+                            <td class="info-nome">Davi Pereira de Aguiar Neto</td>
+                            <td class="info-status">Ativo</td>
+                            <td class="info-bloquear"><input type="button" value="bloquear"></td>
+                            <td class="info-editar"><input type="button" value="editar"></td>
+                        </tr>
 
-                    <tr class="usuario">
-                        <td class="info-login">MARIO_PINA</td>
-                        <td class="info-nome">Mario Augusto Pina</td>
-                        <td class="info-status">Ativo</td>
-                        <td class="info-bloquear"><input type="button" value="bloquear"></td>
-                        <td class="info-editar"><input type="button" value="editar"></td>
-                    </tr>
+                        <tr class="usuario">
+                            <td class="info-login">LHENRIQUE</td>
+                            <td class="info-nome">Luis Henrique Mendes</td>
+                            <td class="info-status">Ativo</td>
+                            <td class="info-bloquear"><input type="button" value="bloquear"></td>
+                            <td class="info-editar"><input type="button" value="editar"></td>
+                        </tr>
 
-                    <tr class="usuario">
-                        <td class="info-login">MARCELO_DIAS</td>
-                        <td class="info-nome">Marcelo Viana Dias</td>
-                        <td class="info-status">Ativo</td>
-                        <td class="info-bloquear"><input type="button" value="bloquear"></td>
-                        <td class="info-editar"><input type="button" value="editar"></td>
-                    </tr>
+                        <tr class="usuario">
+                            <td class="info-login">MARIO_PINA</td>
+                            <td class="info-nome">Mario Augusto Pina</td>
+                            <td class="info-status">Ativo</td>
+                            <td class="info-bloquear"><input type="button" value="bloquear"></td>
+                            <td class="info-editar"><input type="button" value="editar"></td>
+                        </tr>
 
-                    <tr class="usuario">
-                        <td class="info-login">PATRICK_SANTOS</td>
-                        <td class="info-nome">Patrick Alves dos Santos</td>
-                        <td class="info-status">Ativo</td>
-                        <td class="info-bloquear"><input type="button" value="bloquear"></td>
-                        <td class="info-editar"><input type="button" value="editar"></td>
-                    </tr>
-                    
-                    <tr class="usuario">
-                        <td class="info-login">VICTOR_GUARIDO</td>
-                        <td class="info-nome">Victor Guarido Ribeiro</td>
-                        <td class="info-status">Ativo</td>
-                        <td class="info-bloquear"><input type="button" value="bloquear"></td>
-                        <td class="info-editar"><input type="button" value="editar"></td>
-                    </tr>
+                        <tr class="usuario">
+                            <td class="info-login">MARCELO_DIAS</td>
+                            <td class="info-nome">Marcelo Viana Dias</td>
+                            <td class="info-status">Ativo</td>
+                            <td class="info-bloquear"><input type="button" value="bloquear"></td>
+                            <td class="info-editar"><input type="button" value="editar"></td>
+                        </tr>
 
-                </tbody>
-            </table>
+                        <tr class="usuario">
+                            <td class="info-login">PATRICK_SANTOS</td>
+                            <td class="info-nome">Patrick Alves dos Santos</td>
+                            <td class="info-status">Ativo</td>
+                            <td class="info-bloquear"><input type="button" value="bloquear"></td>
+                            <td class="info-editar"><input type="button" value="editar"></td>
+                        </tr>
+                        
+                        <tr class="usuario">
+                            <td class="info-login">VICTOR_GUARIDO</td>
+                            <td class="info-nome">Victor Guarido Ribeiro</td>
+                            <td class="info-status">Ativo</td>
+                            <td class="info-bloquear"><input type="button" value="bloquear"></td>
+                            <td class="info-editar"><a href="cadastro.html"><input type="button" value="editar"></a></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
         </main>
 
         <footer>
