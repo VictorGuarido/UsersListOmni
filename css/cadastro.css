@@ -8,3 +8,14 @@ th{
     text-align: left;
     vertical-align: middle;
 }
+
+.inputs{
+    width:99%;
+}
+
+.botao1{
+    margin-top: 10px;
+    margin-left: 50%;
+    display: inline-block;
+}
+
